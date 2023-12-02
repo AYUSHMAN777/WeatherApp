@@ -1,0 +1,125 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Urbanist:wght@400;600&display=swap');
+
+* {
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+    /* font-family: 'Roboto', sans-serif;
+    font-family: 'Urbanist', sans-serif; */
+}
+
+
+body {
+    background-color: #222;
+
+}
+
+.card {
+    position: relative;
+    /* display: block; */
+    width: 90%;
+    max-width: 370px;
+    color: #fff;
+    margin: 100px auto 0;
+    border-radius: 20px;
+    text-align: center;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);    
+    padding: 40px 35px;
+
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* transition: width 1s ease-in; */
+    margin-left: 1%;
+    width: 100%;
+
+}
+
+.search input {
+    padding: 10px;
+    border-radius: 10px;
+    outline: 0;
+    flex: 1;
+    border-width: 0cap;
+    padding: 12px;
+    margin-right: 7px;
+    font-size: 15px;
+    letter-spacing: 2\px;
+    font-weight: 500;
+}
+
+.search:hover {
+    transform: scale(1.02);
+    /* width:100%;
+    transform: translateX(-45px); */
+}
+
+
+.search button {
+    height: 48px;
+    width: 48px;
+    border-radius: 30px;
+    border-width: 0cap;
+    cursor: pointer;
+
+}
+
+.search button img {
+    height: 48px;
+    width: 48px;
+    border-radius: 30px;
+    border-width: 0cap;
+    outline: 0;
+}
+
+.Weather-icon {
+    width: 120px;
+    margin-bottom: -10px;
+}
+
+.weather h1 {
+    font-size: 48px;
+    margin-bottom: -10px;
+}
+
+.weather h2 {
+    font-size: 22px;
+}
+
+.details {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.col {
+    margin-top: 10px;
+    display: flex;
+    align-items: center;
+    text-align: left;
+
+}
+
+.col img {
+    width: 40px;
+    margin-right: 5px;
+}
+
+.col p {
+    padding-inline-start: 5px;
+}
+.weather{
+    display: none;
+}
+
+.error{
+    display: none;
+    margin-top: 5px;
+    font-weight: 700;
+    font-size: 15px;
+}
